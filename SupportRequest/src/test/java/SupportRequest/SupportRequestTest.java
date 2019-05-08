@@ -111,7 +111,7 @@ public class SupportRequestTest {
 		WebElement Success = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[4]/section/form/div/div/div[1]/div/div[1]")));  
 		String Successmessage = Success.getText();
-		Assert.assertEquals(Successmessage, "Thanks for contacting us...");
+		Assert.assertEquals(Successmessage, "Thanks for contacting us.....");
 		System.out.println(Successmessage);
 		Thread.sleep(2000);
 		
